@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: portfolio
-        image: <본인의도커허브ID>/portfolio-app:latest # 나중에 이미지명으로 수정
+        image: watersu9/portfolio-app:latest
         ports:
         - containerPort: 3000
