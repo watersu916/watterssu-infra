@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 # Copy package info and install production dependencies
 COPY package*.json ./
-RUN npm ci --only=production
+RUN npm install 
 
 # Copy server code and markdown folder
 COPY server.js ./
